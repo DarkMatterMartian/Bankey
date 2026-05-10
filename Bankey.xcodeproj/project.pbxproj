@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9605DB6E2FAD5B45001E9590 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Bankey.app; path = "/Volumes/Joan/Personal/Aprendizaje/iOS/Plataformas/Udemy/The Swift Arcade Professional iOS Development Course - UIKit/Bankey/build/Debug-iphoneos/Bankey.app"; sourceTree = "<absolute>"; };
+		96B3945A2FB007250091CCD3 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				9605DB702FAD5B45001E9590 /* Bankey */,
+				96B3945A2FB007250091CCD3 /* Bankey.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +72,7 @@
 			packageProductDependencies = (
 			);
 			productName = Bankey;
-			productReference = 9605DB6E2FAD5B45001E9590 /* Bankey.app */;
+			productReference = 96B3945A2FB007250091CCD3 /* Bankey.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
