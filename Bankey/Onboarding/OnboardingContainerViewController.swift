@@ -24,9 +24,9 @@ class OnboardingContainerViewController: UIViewController {
             options: nil
         )
 
-        let page1 = FirstViewController()
-        let page2 = SecondViewController()
-        let page3 = ThirdViewController()
+        let page1 = OnboardingViewController(heroImageName: "delorean", titleText: "Bankey is faster, easier to use, and has a brand new look and feel that will make you fell like you're back in 1989")
+        let page2 = OnboardingViewController(heroImageName: "world", titleText: "Move your money around the world quickly and securely.")
+        let page3 = OnboardingViewController(heroImageName: "thumbs", titleText: "Learn more at www.bankey.com")
 
         pages.append(page1)
         pages.append(page2)
@@ -123,27 +123,5 @@ extension OnboardingContainerViewController: UIPageViewControllerDataSource {
     func presentationIndex(for pageViewController: UIPageViewController) -> Int
     {
         return pages.firstIndex(of: self.currentVC) ?? 0
-    }
-}
-
-// MARK: - ViewControllers
-class FirstViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemRed
-    }
-}
-
-class SecondViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemGreen
-    }
-}
-
-class ThirdViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemBlue
     }
 }
